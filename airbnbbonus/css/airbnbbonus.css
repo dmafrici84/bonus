@@ -48,13 +48,26 @@ header {
   transform: translatey(-50%);
 }
 .allineamentolink {
+  text-align: center;
   display: inline-block;
-  width: 10%;
+  margin-left: 20px;
 }
 .impostazionilink {
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
+}
+#registrati{
+  height: 34px;
+  width: 100px;
+  border-radius: 17px;
+  border: solid 1px darkgrey;
+  font-size: 16px;
+  background-color: white;
+}
+#registrati:hover {
+  cursor: pointer;
+  background-color: darkgrey;
 }
 /* impostazione main */
 main {
